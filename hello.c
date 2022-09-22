@@ -8,8 +8,8 @@ int main()
     int num3 = INT_MIN;
     long num4 = LONG_MIN;
     long long num5 = LLONG_MIN;
-
-    printf("%d %d %d %ld %ld  %lld\n", num1, num2, num3, num4, LONG_MAX, num5);
+    int num6 = 9;
+    printf("%d %d %d %ld %ld  %lld %d\n", num1, num2, num3, num4, LONG_MAX, num5, num6);
     
     return 0;
 }
